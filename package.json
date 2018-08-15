@@ -36,5 +36,9 @@
     "build-schemas": "gulp typescript-schema",
     "lint": "gulp lint",
     "test": "gulp test"
+  },
+  "dependencies": {
+    "@essential-projects/iam_contracts": "^3.1.0",
+    "@process-engine/process_engine_contracts": "^20.0.0"
   }
 }
