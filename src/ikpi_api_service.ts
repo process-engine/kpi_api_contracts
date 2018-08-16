@@ -17,7 +17,7 @@ export interface IKpiApiService {
    * @param flowNodeId The Id of the specific FlowNode from whcih to get the average runtime.
    * @param identity The identity to check claims for.
    */
-  getAverageRuntimeForFlowNod(identity: IIdentity, processModelId: string, flowNodeId: string): AverageFlowNodeRuntime;
+  getAverageRuntimeForFlowNode(identity: IIdentity, processModelId: string, flowNodeId: string): AverageFlowNodeRuntime;
 
   /**
    * Gets all active Tokens for a given ProcessModelId.
