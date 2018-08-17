@@ -5,9 +5,9 @@ const params = {
 };
 
 const paths = {
-  getAverageRuntimeForProcessModel: `/process_model/${params.processModelId}/average_runtime`,
-  getAverageRuntimeForFlowNode: `/process_model/${params.processModelId}/flow_node/${params.flowNodeId}/average_runtime`,
+  getRuntimeInformationForProcessModel: `/process_model/${params.processModelId}/runtime_information`,
   getActiveTokensForProcessModel: `/process_model/${params.processModelId}/active_tokens`,
+  getRuntimeInformationForFlowNode: `/process_model/${params.processModelId}/flow_node/${params.flowNodeId}/runtime_information`,
   getActiveTokensForFlowNode: `/flow_node/${params.flowNodeId}/active_tokens`,
 };
 
