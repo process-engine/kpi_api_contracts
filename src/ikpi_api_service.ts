@@ -11,7 +11,7 @@ export interface IKpiApiService {
    * @param processModelId The ID of the PorcessModel.
    * @param identity The identity to check claims for.
    */
-  getAverageRuntimeForProcessModel(identity: IIdentity, processModelId: string): Promise<Array<FlowNodeRuntimeInformation>>;
+  getRuntimeInformationForProcessModel(identity: IIdentity, processModelId: string): Promise<Array<FlowNodeRuntimeInformation>>;
 
   /**
    * Gets the FlowNodeRuntimeInformation for a specific FlowNode inside a ProcessModel.
@@ -21,7 +21,7 @@ export interface IKpiApiService {
    * @param flowNodeId The ID of the specific FlowNode from whcih to get the average runtime.
    * @param identity The identity to check claims for.
    */
-  getAverageRuntimeForFlowNode(identity: IIdentity, processModelId: string, flowNodeId: string): Promise<FlowNodeRuntimeInformation>;
+  getRuntimeInformationForFlowNode(identity: IIdentity, processModelId: string, flowNodeId: string): Promise<FlowNodeRuntimeInformation>;
 
   /**
    * Gets all active Tokens for a given ProcessModelId.
