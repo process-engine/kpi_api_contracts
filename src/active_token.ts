@@ -7,7 +7,6 @@ export class ActiveToken {
   public correlationId: string;
   public identity: IIdentity;
   public createdAt: Date;
-  public caller: string; // empty if this started the correlation
   // payload
   public payload: any;
 }
