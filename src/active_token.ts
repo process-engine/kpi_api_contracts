@@ -5,6 +5,8 @@ export class ActiveToken {
   public processInstanceId: string;
   public processModelId: string;
   public correlationId: string;
+  public flowNodeId: string;
+  public flowNodeInstanceId: string;
   public identity: IIdentity;
   public createdAt: Date;
   // payload
