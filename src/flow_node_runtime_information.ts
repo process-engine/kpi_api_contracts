@@ -3,8 +3,7 @@ export class FlowNodeRuntimeInformation {
   public flowNodeId: string;
   public arithmeticMeanRuntimeInMs: number;
   public firstQuartileRuntimeInMs: number;
-  /* aka second quartile */
-  public medianRuntimeInMs: number;
+  public medianRuntimeInMs: number; // aka second quartile
   public thirdQuartileRuntimeInMs: number;
   public minRuntimeInMs: number;
   public maxRuntimeInMs: number;
