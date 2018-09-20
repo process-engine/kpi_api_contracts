@@ -3,7 +3,7 @@ import {IIdentity} from '@essential-projects/iam_contracts';
 import {ActiveToken} from './active_token';
 import {FlowNodeRuntimeInformation} from './flow_node_runtime_information';
 
-export interface IKpiApiService {
+export interface IKpiApi {
   /**
    * Gets the FlowNodeRuntimeInformation for every FlowNode in a give ProcessModel.
    *
