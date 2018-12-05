@@ -33,6 +33,16 @@ export interface IKpiApi {
   getActiveTokensForProcessModel(identity: IIdentity, processModelId: string): Promise<Array<ActiveToken>>;
 
   /**
+   * Gets all active Tokens for a ProcessModel inside a Correlation.
+   *
+   * @async
+   * @param identity The identity to check claims for.
+   * @param processModelId The ID of the Correlation.
+   * @param processModelId The ID of the ProcessModel.
+   */
+  getActiveTokensForCorrelationAndProcessModel(identity: IIdentity, correlationId: string, processModelId: string): Promise<Array<ActiveToken>>;
+
+  /**
    * Gets all active Tokens for a specific FlowNode inside a ProcessModel.
    *
    * @async
