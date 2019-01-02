@@ -43,7 +43,7 @@ export interface IKpiApi {
   getActiveTokensForCorrelationAndProcessModel(identity: IIdentity, correlationId: string, processModelId: string): Promise<Array<ActiveToken>>;
 
   /**
-   * Gets all active Tokens for a given ProcessModelId.
+   * Gets all active Tokens for a given ProcessInstance.
    *
    * @async
    * @param identity The identity to check claims for.
