@@ -1,6 +1,6 @@
 {
   "name": "@process-engine/kpi_api_contracts",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "the api-package for process-engine kpi",
   "main": "dist/commonjs/index.js",
   "typings": "dist/index.d.ts",
