@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/process-engine/kpi_api_contracts#readme",
   "dependencies": {
-    "@essential-projects/iam_contracts": "~3.4.0"
+    "@essential-projects/iam_contracts": "^3.5.0"
   },
   "devDependencies": {
     "@essential-projects/tslint-config": "^1.1.3",
