@@ -1,4 +1,3 @@
-// tslint:disable:typedef
 const params = {
   correlationId: 'correlation_id',
   processInstanceId: ':process_instance_id',
@@ -15,16 +14,7 @@ const paths = {
   getActiveTokensForFlowNode: `/flow_node/${params.flowNodeId}/active_tokens`,
 };
 
-/**
- * Contains the endpoints and various rest parameters used by the kpi api.
- */
 export const restSettings = {
-  /**
-   * A collection of all url parameters employed by the kpi api.
-   */
   params: params,
-  /**
-   * A collection of all urls employed by the kpi api.
-   */
   paths: paths,
 };
